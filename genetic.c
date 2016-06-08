@@ -1,3 +1,9 @@
+/*
+* Name: Genetic algorithm Knapsack problem
+* Author: TING Lee Tse
+* @Usage: gcc -o out genetic.c
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -172,7 +178,7 @@ int main() {
 		printf("max: %lf, avg: %lf, min:%lf\n", max, sum / (double) pop_num, min);
 
 		// pause. please remove if you need to speed up
-    	// getchar();
+		// getchar();
   	}
 	return 0;
 }
